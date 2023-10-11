@@ -8,7 +8,7 @@
 
 // Enqueue the Google Maps API
 function google_map_plugin_enqueue_scripts() {
-    wp_enqueue_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAg_aFky8jQ82Zp2k6DeKkSA-3nY3P9isw', array(), null, false );
+    wp_enqueue_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?key=secretCode', array(), null, false );
 }
 add_action( 'wp_enqueue_scripts', 'google_map_plugin_enqueue_scripts' );
 
